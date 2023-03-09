@@ -1,0 +1,97 @@
+nav {
+    width: 70vw;
+    height: 50px;
+    margin: -40px auto;
+    border-radius: 10px;
+
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            display: block;
+            text-decoration: none;
+            width: 200px;
+            height: 40px;
+            text-align: center;
+            background-color: $Green;
+            line-height: 1.5;
+            color: $Purple;
+            font-size: 1.8rem;
+            border-radius: 10px;
+            box-shadow: 5px 10px 8px #0d0d0d5b;
+            font-family: $HFont;
+
+            &:hover {
+                color: $Yellow ;
+                background-color: $Purple;
+                height: 60px;
+                width: 250px;
+                transition: width 1s, height 2s;
+            }
+        }
+    }
+}
+
+
+#navv {
+    width: 70vw;
+    height: 80px;
+    background-color: $Purple;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #0d0d0d5e;
+    display: flex;
+    justify-content: center;
+}
+
+#navv:hover {
+    background-color: $Yellow;
+
+    h1 {
+        color: $Purple;
+    }
+}
+
+#navv h1 {
+    font-family: $HHFont;
+    color: $Yellow;
+    font-size: 3rem;
+}
+
+#rope {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+#rope1 {
+    margin: 0 0 0 20vw;
+    height: 150px;
+}
+
+#rope2 {
+    margin: 0 0 0 11vw;
+    height: 150px;
+}
+
+#rope3 {
+    margin: 0 0 0 14vw;
+    height: 150px;
+}
+
+#rope4 {
+    margin: 0 0 0 12vw;
+    height: 150px;
+}
+
+#rope5 {
+    margin: 0 0 0 12vw;
+    height: 150px;
+}
+
+#logo {
+    width: 100px;
+}

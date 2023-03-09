@@ -1,0 +1,98 @@
+.attractions {
+    min-width: 100px;
+    background-color: $Purple;
+
+    .aceHotelBanner {
+        width: 100%;
+        border: 3px solid #000;
+
+    }
+
+    .hauntedBanner {
+        width: 100%;
+        border: 3px solid #000;
+        margin: 15px auto;
+
+    }
+
+    .container {
+        min-height: inherit;
+
+
+        .row {
+            min-height: inherit;
+
+            .headLine {
+                h1 {
+                    font-family: $HHFont;
+                    color: $White;
+                    text-align: center;
+                    margin: 45px 0 0 0;
+                    font-size: $fontSize6;
+                    text-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.8);
+
+                    @media screen and (max-width: 525px) {
+                        font-size: $fontSize4;
+                    }
+                }
+            }
+
+            .attraction {
+                padding: 15px;
+
+                a {
+                    font-family: $textFont;
+                    color: $Black;
+                    text-decoration: none;
+                }
+
+                .attPic {
+                    width: 100%;
+                    border-radius: 10px;
+                    border: 1px solid #000;
+
+
+                    &:hover+article {
+                        display: block;
+
+                    }
+                }
+
+                article {
+                    background-color: $Black;
+                    opacity: 0.8;
+                    padding: 2% 5%;
+                    border-radius: 10px;
+                    display: none;
+                    margin-top: -50%;
+
+                    &:hover {
+                        display: block;
+                    }
+
+                    h3 {
+                        font-family: $HHFont;
+                        color: $White;
+                    }
+
+                    p {
+                        font-family: $textFont;
+                        color: $White;
+                        padding: 1% 0 0 0;
+                    }
+
+                    h6 {
+                        color: $Green;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+
+}

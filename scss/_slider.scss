@@ -1,0 +1,50 @@
+.gallery {
+    width: 15vw;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.7);
+}
+
+#bigImg {
+    display: block;
+    width: 564px;
+    height: 376px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 15px 15px 15px rgba($color: #000000, $alpha: 0.8);
+}
+
+.mySlides {
+    width: 30vw;
+    display: none;
+
+}
+
+#slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+#slider div {
+    width: 20%;
+    text-align: center;
+}
+
+#slider img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.pic-words {
+    text-align: center;
+    font-size: 1.3rem;
+    width: 565px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    font-family: $textFont;
+    color: $Yellow;
+    background-color: rgba($color: #00000015, $alpha: 0.7);
+}

@@ -1,0 +1,44 @@
+.contact {
+    background: $Yellow;
+
+    .container {
+        padding: 15px;
+
+        .contactForm {
+            min-height: inherit;
+            border: 2px solid $Black;
+            border-radius: 10px;
+            background: $Green;
+            padding: 15px;
+            box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.7);
+
+            h1 {
+                font-family: $HHFont;
+            }
+
+            form {
+
+                label,
+                input {
+                    width: 100%;
+                    border-radius: 5px;
+                }
+
+                textarea {
+                    width: 100%;
+                    border-radius: 5px;
+                    min-height: 100px;
+                }
+            }
+
+            .contactImg {
+
+                img {
+                    padding: 15px;
+
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,58 @@
+$baseWidth: 80vw;
+
+/* Colors */
+$Purple: #9453A6;
+$Green: #8CBF3F;
+$Yellow: #F2CC0F;
+$White: #F2F2F2;
+$Black: #0D0D0D;
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+$textFont: 'Roboto', sans-serif;
+$HFont: 'Henny Penny';
+$HHFont: 'Pattaya';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONTSIZE */
+$fontSize1: 1em;
+$fontSize2: 1.3em;
+$fontSize3: 1.6em;
+$fontSize4: 2em;
+$fontSize5: 2.3em;
+$fontSize6: 2.6em;
+$fontSize7: 3em;
+$fontSize8: 3.3em;
+$fontSize9: 3.6em;
+$fontSize10: 4em;
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin desktop {
+    @media (max-width:992px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width:768px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width:576px) {
+        @content;
+    }
+}

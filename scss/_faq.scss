@@ -1,0 +1,36 @@
+.faq {
+    min-height: 100px;
+    background: $Purple;
+
+    .museumBanner {
+        width: 100%;
+        border: 3px solid #000;
+        margin: 15px 0;
+    }
+
+    .primiumBanner {
+        width: 100%;
+        border: 3px solid #000;
+    }
+
+    .container {
+
+        .headLine {
+            min-height: inherit;
+
+            h1 {
+                font-family: $HHFont;
+                padding-top: 25px;
+                color: $White;
+            }
+        }
+
+        .accordion {
+            min-height: inherit;
+
+        }
+
+    }
+
+
+}

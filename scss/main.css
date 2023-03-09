@@ -1,0 +1,527 @@
+/* Colors */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FONTSIZE */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 70vw;
+  height: 50px;
+  margin: -40px auto;
+  border-radius: 10px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul a {
+  display: block;
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  background-color: #8CBF3F;
+  line-height: 1.5;
+  color: #9453A6;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px rgba(13, 13, 13, 0.3568627451);
+  font-family: "Henny Penny";
+}
+nav ul a:hover {
+  color: #F2CC0F;
+  background-color: #9453A6;
+  height: 60px;
+  width: 250px;
+  transition: width 1s, height 2s;
+}
+
+#navv {
+  width: 70vw;
+  height: 80px;
+  background-color: #9453A6;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px rgba(13, 13, 13, 0.368627451);
+  display: flex;
+  justify-content: center;
+}
+
+#navv:hover {
+  background-color: #F2CC0F;
+}
+#navv:hover h1 {
+  color: #9453A6;
+}
+
+#navv h1 {
+  font-family: "Pattaya";
+  color: #F2CC0F;
+  font-size: 3rem;
+}
+
+#rope {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+}
+
+#rope1 {
+  margin: 0 0 0 20vw;
+  height: 150px;
+}
+
+#rope2 {
+  margin: 0 0 0 11vw;
+  height: 150px;
+}
+
+#rope3 {
+  margin: 0 0 0 14vw;
+  height: 150px;
+}
+
+#rope4 {
+  margin: 0 0 0 12vw;
+  height: 150px;
+}
+
+#rope5 {
+  margin: 0 0 0 12vw;
+  height: 150px;
+}
+
+#logo {
+  width: 100px;
+}
+
+.gallery {
+  width: 15vw;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+#bigImg {
+  display: block;
+  width: 564px;
+  height: 376px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.8);
+}
+
+.mySlides {
+  width: 30vw;
+  display: none;
+}
+
+#slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+#slider div {
+  width: 20%;
+  text-align: center;
+}
+
+#slider img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.pic-words {
+  text-align: center;
+  font-size: 1.3rem;
+  width: 565px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  font-family: "Roboto", sans-serif;
+  color: #F2CC0F;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+body {
+  background-image: url("/images/background/1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.footer {
+  min-height: 200px;
+  background: black;
+  color: #F2F2F2;
+}
+.footer .icons {
+  font-size: 2em;
+}
+.footer .icons a {
+  color: #F2F2F2;
+}
+.footer .copy {
+  margin: 15px;
+}
+.footer .copy h1 {
+  padding: 15px;
+}
+
+.aboutMardi .container {
+  background: #8CBF3F;
+  border-radius: 10px;
+}
+.aboutMardi .container .row .headline h1 {
+  font-family: "Pattaya";
+  margin-top: 85px;
+}
+.aboutMardi .container .row p {
+  text-align: left;
+  text-indent: 25px;
+  padding: 0 25px;
+}
+.aboutMardi .container .row p span {
+  font-weight: bold;
+}
+.aboutMardi .container .row .aboutMardiImg {
+  width: 100%;
+  padding: 25px 25px;
+  border-radius: 15%;
+}
+
+.about {
+  display: flex;
+  float: left;
+  background-color: #8CBF3F;
+}
+.about h1 {
+  font-family: "Pattaya";
+  text-align: center;
+  color: #0D0D0D;
+}
+.about p {
+  font-size: 1.3em;
+  color: #0D0D0D;
+  text-align: center;
+}
+.about a {
+  border: 2px solid black;
+  width: 200px;
+  height: 70px;
+  font-weight: bolder;
+  color: #9453A6;
+  background-color: #F2CC0F;
+  font-family: "Henny Penny";
+  font-size: 1.6em;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+  padding: 15px;
+  margin-top: 50px;
+}
+.about a:hover {
+  color: #F2CC0F;
+  background-color: #9453A6;
+}
+
+.banner1 {
+  min-width: 100px;
+  border: 3px solid #000;
+  margin: 15px;
+}
+
+.schedule {
+  min-height: 100px;
+  background: #8CBF3F;
+  color: #F2F2F2;
+}
+.schedule .container .row .scheduleImg .calenderIcon {
+  width: 100%;
+  margin: 15px;
+}
+.schedule .container .row .headLine {
+  margin: 15px 0;
+}
+.schedule .container .row .headLine a {
+  color: #F2F2F2;
+}
+.schedule .container .row .headLine a:hover {
+  text-decoration: none;
+}
+.schedule .container .row .headLine a h1 {
+  font-family: "Roboto", sans-serif;
+}
+.schedule .container .row .headLine a h6 {
+  color: #0D0D0D;
+}
+.schedule .container .row .headLine a h6:hover {
+  text-decoration: underline;
+}
+
+.accomodation {
+  min-height: 100px;
+  background: #F2F2F2;
+}
+.accomodation .primiumBanner {
+  width: 100%;
+  border: 3px solid #000;
+  margin: 15px 0;
+}
+.accomodation .container .row {
+  justify-content: space-evenly;
+}
+.accomodation .container .row .headLine {
+  font-family: "Pattaya";
+  text-align: center;
+  margin-top: 25px;
+}
+.accomodation .container .row .headLine h1 {
+  font-size: 2em;
+}
+.accomodation .container .row .accomodation {
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.accomodation .container .row .accomodation:hover {
+  background: #9453A6;
+  color: #F2F2F2;
+  border: 1px solid #000;
+}
+.accomodation .container .row .accomodation a {
+  color: #0D0D0D;
+  text-decoration: none;
+  text-align: center;
+}
+.accomodation .container .row .accomodation a h6 {
+  color: #8CBF3F;
+}
+.accomodation .container .row .accomodation a h6:hover {
+  text-decoration: underline;
+}
+.accomodation .container .row .accomodation .accoPic {
+  width: 100%;
+  border: 3px solid #000;
+  border-radius: 100%;
+  margin: 10px auto;
+  padding: 5px;
+}
+.accomodation .container .row .accomodation h3 {
+  text-align: center;
+}
+.accomodation .container .row .accomodation p {
+  text-align: justify;
+}
+
+.attractions {
+  min-width: 100px;
+  background-color: #9453A6;
+}
+.attractions .aceHotelBanner {
+  width: 100%;
+  border: 3px solid #000;
+}
+.attractions .hauntedBanner {
+  width: 100%;
+  border: 3px solid #000;
+  margin: 15px auto;
+}
+.attractions .container {
+  min-height: inherit;
+}
+.attractions .container .row {
+  min-height: inherit;
+}
+.attractions .container .row .headLine h1 {
+  font-family: "Pattaya";
+  color: #F2F2F2;
+  text-align: center;
+  margin: 45px 0 0 0;
+  font-size: 2.6em;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+@media screen and (max-width: 525px) {
+  .attractions .container .row .headLine h1 {
+    font-size: 2em;
+  }
+}
+.attractions .container .row .attraction {
+  padding: 15px;
+}
+.attractions .container .row .attraction a {
+  font-family: "Roboto", sans-serif;
+  color: #0D0D0D;
+  text-decoration: none;
+}
+.attractions .container .row .attraction .attPic {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+.attractions .container .row .attraction .attPic:hover + article {
+  display: block;
+}
+.attractions .container .row .attraction article {
+  background-color: #0D0D0D;
+  opacity: 0.8;
+  padding: 2% 5%;
+  border-radius: 10px;
+  display: none;
+  margin-top: -50%;
+}
+.attractions .container .row .attraction article:hover {
+  display: block;
+}
+.attractions .container .row .attraction article h3 {
+  font-family: "Pattaya";
+  color: #F2F2F2;
+}
+.attractions .container .row .attraction article p {
+  font-family: "Roboto", sans-serif;
+  color: #F2F2F2;
+  padding: 1% 0 0 0;
+}
+.attractions .container .row .attraction article h6 {
+  color: #8CBF3F;
+}
+.attractions .container .row .attraction article h6:hover {
+  text-decoration: underline;
+}
+
+.galleryclick {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galleryclick img {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 25px;
+  cursor: pointer;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+.galleryclick img:hover {
+  transform: scale(1.1);
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+#overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.mediaGallery {
+  background-color: #9453A6;
+}
+
+div video {
+  width: 500px;
+  margin-top: 25px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.videos {
+  display: flex;
+  background-color: #9453A6;
+}
+
+#H1Media {
+  background-color: #9453A6;
+  margin-bottom: -10px;
+  text-align: center;
+  font-family: "Pattaya";
+  font-size: 4em;
+  color: #F2CC0F;
+}
+#H1Media:hover {
+  color: #8CBF3F;
+  transform: scale(1.1);
+}
+
+.faq {
+  min-height: 100px;
+  background: #9453A6;
+}
+.faq .museumBanner {
+  width: 100%;
+  border: 3px solid #000;
+  margin: 15px 0;
+}
+.faq .primiumBanner {
+  width: 100%;
+  border: 3px solid #000;
+}
+.faq .container .headLine {
+  min-height: inherit;
+}
+.faq .container .headLine h1 {
+  font-family: "Pattaya";
+  padding-top: 25px;
+  color: #F2F2F2;
+}
+.faq .container .accordion {
+  min-height: inherit;
+}
+
+.contact {
+  background: #F2CC0F;
+}
+.contact .container {
+  padding: 15px;
+}
+.contact .container .contactForm {
+  min-height: inherit;
+  border: 2px solid #0D0D0D;
+  border-radius: 10px;
+  background: #8CBF3F;
+  padding: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+.contact .container .contactForm h1 {
+  font-family: "Pattaya";
+}
+.contact .container .contactForm form label,
+.contact .container .contactForm form input {
+  width: 100%;
+  border-radius: 5px;
+}
+.contact .container .contactForm form textarea {
+  width: 100%;
+  border-radius: 5px;
+  min-height: 100px;
+}
+.contact .container .contactForm .contactImg img {
+  padding: 15px;
+}/*# sourceMappingURL=main.css.map */

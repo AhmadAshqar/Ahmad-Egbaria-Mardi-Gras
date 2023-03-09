@@ -1,0 +1,35 @@
+.aboutMardi {
+
+    .container {
+        background: $Green;
+        border-radius: 10px;
+
+        .row {
+
+            .headline {
+
+                h1 {
+                    font-family: $HHFont;
+                    margin-top: 85px;
+                }
+            }
+
+            p {
+                text-align: left;
+                text-indent: 25px;
+                padding: 0 25px;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+
+            .aboutMardiImg {
+                width: 100%;
+                padding: 25px 25px;
+                border-radius: 15%;
+
+            }
+        }
+    }
+}

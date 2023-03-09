@@ -1,0 +1,21 @@
+.footer {
+    min-height: 200px;
+    background: black;
+    color: $White;
+
+    .icons {
+        font-size: $fontSize4;
+
+        a {
+            color: $White;
+        }
+    }
+
+    .copy {
+        margin: 15px;
+
+        h1 {
+            padding: 15px;
+        }
+    }
+}
