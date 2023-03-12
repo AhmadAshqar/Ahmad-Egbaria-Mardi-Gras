@@ -1,20 +1,20 @@
 .gallery {
-    width: 15vw;
+    width: 50vw;
     cursor: pointer;
     box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.7);
 }
 
 #bigImg {
     display: block;
-    width: 564px;
-    height: 376px;
+    width: 50vw;
+    /*     height: 376px; */
     margin-left: auto;
     margin-right: auto;
     box-shadow: 15px 15px 15px rgba($color: #000000, $alpha: 0.8);
 }
 
 .mySlides {
-    width: 30vw;
+    width: 50vw;
     display: none;
 
 }
@@ -40,7 +40,7 @@
 .pic-words {
     text-align: center;
     font-size: 1.3rem;
-    width: 565px;
+    width: 50vw;
     margin-left: auto;
     margin-right: auto;
     display: none;
