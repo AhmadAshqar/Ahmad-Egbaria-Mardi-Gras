@@ -496,6 +496,16 @@ div video {
   min-height: inherit;
 }
 
+#id_form_btn {
+  font-weight: bold;
+}
+#id_form_btn:hover {
+  background-color: #F2CC0F;
+}
+#id_form_btn:active {
+  background-color: #9453A6;
+}
+
 .contact {
   background: #F2CC0F;
 }

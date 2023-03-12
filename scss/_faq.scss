@@ -34,3 +34,17 @@
 
 
 }
+
+
+
+#id_form_btn {
+    &:hover {
+        background-color: $Yellow;
+    }
+
+    &:active {
+        background-color: $Purple;
+    }
+
+    font-weight: bold;
+}
